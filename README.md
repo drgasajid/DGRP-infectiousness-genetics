@@ -24,10 +24,9 @@ The raw phenotypic records utilized in this reanalysis were collected by Vale & 
 
 Vale, P.; Kutzer, M. (2024). Drosophila activity, survival and pathogen shedding after oral infection with the bacterial pathogen Pseudomonas aeruginosa. NERC EDS Environmental Information Data Centre. https://doi.org/10.5285/65c7085a-7bcf-481a-884a-8e1c9cfc395b
 
-## Dependencies & Installation
+**Dependencies & Installation**
 
 This project requires **R (version 4.0 or later)** and, required following packages:
-
 ```R
 install.packages(c("dplyr", "tidyr", "lme4", "ggplot2", "qqman"))
 ```
