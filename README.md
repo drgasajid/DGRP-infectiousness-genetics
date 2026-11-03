@@ -9,11 +9,14 @@ Initial screening unmasked an expansive ~2,254-fold variation in microbial colon
 
 **2. Variance Partitioning & Broad-Sense Heritability**
 
-To distinguish individual environmental noise from stable line architecture, broad-sense heritability (\(H^{2}\)) was modeled via linear mixed-effects frameworks using lme4 across the complete dataset. Because flies within an inbred line share an identical genetic background, heritability was partitioned at two operational scales:
-• Individual-Level Heritability (\(H^2_{\text{individual}} = 0.0544\)): Captures single fly variance under intense stochastic environmental and micro-defecation noise.
-• Line-Mean Heritability (\(H^2_{\text{line-mean}} = 0.2871\)): Directly calculated using the quantitative genetics scaling formula by leveraging an average clonal replication of \(n = 7\) replicates per line:
-\(H_{\text{line-mean}}^{2}=\frac{\sigma _{G}^{2}}{\sigma _{G}^{2}+\frac{\sigma _{E}^{2}}{n}}\)
+To distinguish individual environmental noise from stable line architecture, broad-sense heritability ($H^2$) was modeled via linear mixed-effects frameworks using `lme4` across the complete dataset. Because flies within an inbred line share an identical genetic background, heritability was partitioned at two operational scales:
+*   **Individual-Level Heritability ($H^2_{\text{individual}} = 0.0544$):** Captures single fly variance under intense stochastic environmental and micro-defecation noise.
+*   **Line-Mean Heritability ($H^2_{\text{line-mean}} = 0.2871$):** Directly calculated using the quantitative genetics scaling formula by leveraging an average clonal replication of $n = 7$ replicates per line:
+
+$$H^2_{\text{line-mean}} = \frac{\sigma^2_G}{\sigma^2_G + \frac{\sigma^2_E}{n}}$$
+
 Averaging across the 7 replicates successfully dampens individual environmental noise, revealing that close to 30% of the variance observed among line means is broadly driven by stable host genetics.
+
 
 
 
