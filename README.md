@@ -18,10 +18,16 @@ $$H^2_{\text{line-mean}} = \frac{\sigma^2_G}{\sigma^2_G + \frac{\sigma^2_E}{n}}$
 Averaging across the 7 replicates successfully dampens individual environmental noise, revealing that close to 30% of the variance observed among line means is broadly driven by stable host genetics.
 
 
-
-
 **Source Dataset**
 
 The raw phenotypic records utilized in this reanalysis were collected by Vale & Kutzer (2024) at the Institute of Ecology and Evolution, University of Edinburgh.
 
 Vale, P.; Kutzer, M. (2024). Drosophila activity, survival and pathogen shedding after oral infection with the bacterial pathogen Pseudomonas aeruginosa. NERC EDS Environmental Information Data Centre. https://doi.org/10.5285/65c7085a-7bcf-481a-884a-8e1c9cfc395b
+
+## Dependencies & Installation
+
+This project requires **R (version 4.0 or later)** and, required following packages:
+
+```R
+install.packages(c("dplyr", "tidyr", "lme4", "ggplot2", "qqman"))
+```
