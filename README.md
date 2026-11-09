@@ -1,4 +1,4 @@
-_This repo is still updating_
+_This repo is still being updated_
 ## Project overview
 This repository contains re-analysis of host heterogeneity and pathogen transmission traits using the Drosophila Genetic Reference Panel (DGRP). The workflow processes individual-level phenotypic tracking data following _Pseudomonas aeruginosa_ oral infection, partitions variance components to estimate heritability and formats optimized genetic payloads for genome-wide association study (GWAS) mapping on the DGRP2 web server.
 
