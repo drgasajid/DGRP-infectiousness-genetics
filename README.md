@@ -17,6 +17,7 @@ $$H^2_{\text{line-mean}} = \frac{\sigma^2_G}{\sigma^2_G + \frac{\sigma^2_E}{n}}$
 
 Averaging across the 7 replicates successfully dampens individual environmental noise, revealing that close to 30% of the variance observed among line means is broadly driven by stable host genetics.
 
+**3. **
 
 **Source Dataset**
 
