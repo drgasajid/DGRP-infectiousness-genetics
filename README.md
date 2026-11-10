@@ -3,9 +3,9 @@ _This repo is still being updated_
 This repository contains re-analysis of host heterogeneity and pathogen transmission traits using the Drosophila Genetic Reference Panel (DGRP). The workflow processes individual-level phenotypic tracking data following _Pseudomonas aeruginosa_ oral infection, partitions variance components to estimate heritability and formats optimized genetic payloads for genome-wide association study (GWAS) mapping on the DGRP2 web server.
 
 
-**1. Phenotypic Variation & Outlier Evaluation**
+**1. Phenotypic Variation**
 
-Initial screening revealed a ~2,254-fold variation in microbial colony-forming units (CFUshed) across line means, indicate the presence of heavy right-skewness common to shedding phenotypes.
+Initial screening revealed a ~2,254-fold variation in microbial colony-forming units (CFUshed) across line means, indicate the presence of heavy right-skewness common to shedding phenotypes. While the back-transformed log means give about 120-fold.
 
 **2. Variance Partitioning & Broad-Sense Heritability**
 
